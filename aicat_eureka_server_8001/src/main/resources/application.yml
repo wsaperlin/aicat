@@ -1,0 +1,13 @@
+server:
+  port: 8001
+eureka:
+  instance:
+    hostname: aicat
+  client:
+    fetch-registry: false
+    register-with-eureka: false
+    serviceUrl:
+      defaltZone: http://127.0.0.1:8001/eureka/
+spring:
+  application:
+    name: AICAT_EUREKA

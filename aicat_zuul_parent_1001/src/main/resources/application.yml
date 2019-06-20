@@ -1,0 +1,16 @@
+server:
+  port: 1001
+spring:
+  application:
+    name: AICAT_ZUUL
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:8001/eureka
+  instance:
+    prefer-ip-address: true
+zuul:
+  routes:
+    aicat_plat: /login/**
+  ignored-services: "*" #不让外部访问到
+  prefix: /aicat  #前缀

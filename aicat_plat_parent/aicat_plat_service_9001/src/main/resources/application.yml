@@ -1,0 +1,11 @@
+server:
+  port: 9001
+spring:
+  application:
+    name: AICAT_PLAT
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:8001/eureka
+  instance:
+    prefer-ip-address: true  #使用ip注册到注册中心
