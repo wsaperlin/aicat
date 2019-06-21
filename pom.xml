@@ -14,6 +14,7 @@
         <module>aicat_eureka_server_8001</module>
         <module>aicat_plat_parent</module>
         <module>aicat_zuul_parent_1001</module>
+        <module>aicat_config_server_8848</module>
     </modules>
     
     <properties>

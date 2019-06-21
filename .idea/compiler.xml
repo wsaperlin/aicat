@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="aicat_basic_util" />
+        <module name="aicat_config_server_8848" />
         <module name="aicat_eureka_server_8001" />
         <module name="aicat_plat_interface" />
         <module name="aicat_plat_service_9001" />
